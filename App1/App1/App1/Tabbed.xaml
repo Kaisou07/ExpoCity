@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Views="clr-namespace:App1.Views"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BarBackgroundColor="#FFB427"
+            SelectedTabColor="Black"
+            android:TabbedPage.ToolbarPlacement="Default"
+            x:Class="App1.Tabbed">
+    <!--Pages can be added as references or inline-->
+    <Views:Login Title="Logar"></Views:Login>
+    <Views:Register Title="Registrar"></Views:Register>
+
+</TabbedPage>

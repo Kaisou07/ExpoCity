@@ -1,0 +1,68 @@
+K:\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+K:\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+K:\proj\App1\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+K:\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Feed.xaml.g.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+K:\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Publish.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\NewFeed.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Perfil.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\ButtonNavigation.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Comentarios.xaml.g.cs
+D:\Murilo Matos Bernardo\mega\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\EditarPerfil.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\ButtonNavigation.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Tabbed.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Comentarios.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\NewFeed.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Perfil.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Publish.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\ref\App1.dll
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\MySql.Data.DLL
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CopyComplete
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\kaiqu\Documents\MEGAsync\proj\App1\App1\App1\bin\Debug\netstandard2.0\Mono.Android.xml

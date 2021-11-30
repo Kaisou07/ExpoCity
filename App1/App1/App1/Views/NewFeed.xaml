@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.NewFeed">
+    
+    <ContentPage.Content>
+        <RelativeLayout>
+            <StackLayout Padding="0" BackgroundColor="White">
+              <!--  <Grid> -->
+
+                <Button  Text="Conexão" Clicked="Btn_Consulta"/>
+
+                <Button  Text="consultar" Clicked="getbutton_Clicked"/>
+
+                <ListView Grid.Row="3" x:Name="MyListView" HasUnevenRows="True" Footer="">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid RowDefinitions="Auto,Auto,Auto">
+                                    <!--
+                                    <Label Text="{Binding Id}" TextColor="Black"></Label>
+                                    <Label Grid.Row="1" Text="{Binding nome}" TextColor="Black"></Label>
+                                    <Label Grid.Row="2" Text="{Binding NM_Usuario}" TextColor="Black"></Label>
+                                    <Label Grid.Row="3" Text="{Binding senha}" TextColor="Black"></Label>
+                                    <Label Grid.Row="4" Text="{Binding email}" TextColor="Black"></Label>
+                                    -->
+
+
+                                    <StackLayout>
+                                        <Frame BackgroundColor="White" HasShadow="True" CornerRadius="10" HorizontalOptions="FillAndExpand">
+                                            <StackLayout IsVisible="True">
+
+
+                                                                        <!-- Foto de Perfil -->
+                                                <StackLayout Orientation="Horizontal" Margin="0,0,20,20">
+                                                    <Frame BackgroundColor="Transparent" Padding="0" Margin="5" HeightRequest="50" CornerRadius="60" HasShadow="False">
+                                                        <Image Source="{Binding imgPerfil}" Aspect="AspectFit" Margin="0"/>
+                                                    </Frame>
+                                                    <!-- Nome de Usuario -->
+                                                    <StackLayout Orientation="Vertical">
+                                                        <Label Text="{Binding nome}" Margin="0,0,0,-3" FontSize="18" FontAttributes="Bold" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                                                        <!-- Hora do Post -->
+                                                        <!-- Local da Ocorrencia -->
+                                                        <StackLayout Orientation="Horizontal" Margin="0,5,5,0">
+                                                            <Label Text="{Binding Data_Post}" FontSize="12"  TextColor="Black" VerticalOptions="CenterAndExpand"  />
+                                                            <Label Text="Guarulhos/SP" FontSize="12"  TextColor="Black" VerticalOptions="CenterAndExpand"  />
+                                                        </StackLayout>
+
+                                                    </StackLayout>
+
+                                                    <Label Text="..." VerticalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand" />
+                                                </StackLayout>
+
+
+
+                                                <!-- Foto do Problema -->
+                                                <!-- Foto do Problema -->
+                                                <!-- Foto do Problema -->
+                                                <StackLayout Orientation="Horizontal">
+                                                    <Frame BackgroundColor="Transparent" WidthRequest="300" Padding="0" Margin="0"  CornerRadius="10" HasShadow="False" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                                        <Image Source="{Binding Imagem_Post}" Aspect="AspectFit" Margin="0"/>
+
+                                                    </Frame>
+                                                </StackLayout>
+
+
+                                                <!-- Botões de Interação -->
+                                                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" Margin="5" WidthRequest="300" HeightRequest="29" >
+                                                    <Frame BackgroundColor="Transparent" WidthRequest="35" Padding="0" Margin="25,0,15,0" HasShadow="False">
+                                                        <Button Clicked="Btn_ComentarioAbrir" ImageSource="ChatIcon" BackgroundColor="Transparent"></Button>
+                                                    </Frame>
+                                                    <Frame BackgroundColor="Transparent" WidthRequest="35" Padding="0"  Margin="15,0,15,0"  HasShadow="False">
+                                                        <Image Source="LikeIcon" Aspect="AspectFit"/>
+                                                    </Frame>
+                                                    <Frame BackgroundColor="Transparent" WidthRequest="35" Padding="0"  Margin="15,0,15,0"   HasShadow="False">
+                                                        <Image Source="FavIcon" Aspect="AspectFit"/>
+                                                    </Frame>
+                                                    <Frame BackgroundColor="Transparent" WidthRequest="35" Padding="0"  Margin="15,0,0,0"    HasShadow="False">
+                                                        <Image Source="ShareIcon" Aspect="AspectFit"/>
+                                                    </Frame>
+                                                </StackLayout>
+
+
+
+                                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0" Margin="0" VerticalOptions="StartAndExpand" HeightRequest="200" BackgroundColor="Transparent">
+                                                    <!-- Descrição do Problema -->
+                                                    <StackLayout BackgroundColor="Transparent" WidthRequest="300" Padding="0"  Margin="5" HeightRequest="5" HorizontalOptions="CenterAndExpand">
+                                                        <Label FontSize="16" TextColor="Black" Text="Descrição:"></Label>
+                                                        <Label  FontSize="14" TextColor="Black" Text="{Binding Descricao_Post}"></Label>
+                                                    </StackLayout>
+                                                </StackLayout>
+                                            </StackLayout>
+                                        </Frame>
+
+
+                                    </StackLayout>
+
+
+
+
+
+
+
+
+
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <!--
+                    
+                    -->
+             <!--   </Grid> -->
+            </StackLayout>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>

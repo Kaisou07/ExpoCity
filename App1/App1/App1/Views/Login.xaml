@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:App1.Models"
+             x:Class="App1.Views.Login"
+             >
+           
+    <ContentPage.Content>
+        
+        <StackLayout Padding="0" BackgroundColor="#EBEFF2">
+            <Grid>  
+                <StackLayout Padding="0,-100,0,0" Margin="0">
+                    <Frame Padding="0" Margin="-50,-50,-50,0" BackgroundColor="Transparent" BorderColor="Transparent">
+                        <Image Source="https://i.im.ge/2021/09/14/TjO2aC.png" Aspect="AspectFill"/>
+                    </Frame>
+                    <Frame  Padding="0" Margin="-50,-310,-50,0" BackgroundColor="Transparent" BorderColor="Transparent">
+                        <Image Source="logo" Aspect="AspectFit" HeightRequest="100"/>
+                    </Frame>
+                    <Frame Padding="0" BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="300"  HorizontalOptions="FillAndExpand">
+                    </Frame>
+
+                </StackLayout>
+                <StackLayout Margin="30,150,30,0">
+                    <Frame BackgroundColor="White" HasShadow="True" CornerRadius="40" HeightRequest="449" HorizontalOptions="FillAndExpand">
+                        <StackLayout IsVisible="True">
+      
+                            <StackLayout x:Name="stkLogin">
+                                <StackLayout Margin="0,25,0,0">
+                                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Entry x:Name="entLoginNome" Placeholder="Entre email ou nome"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                            <!--  <local:CostumerEntry Placeholder="Entre email ou nome"  TextColor="#3F89A6" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/> -->
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent"  Padding="0" Margin="0,10,0,0">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Entry x:Name="entLoginPassword" Placeholder="Senha"  IsPassword="True" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                            <!-- IsPassword="{Binding Source={x:Reference ShowPasswordActual}, Path=HidePassword}"
+                                        <ImageButton VerticalOptions="Center" Margin="0,0,10,0" HeightRequest="20" HorizontalOptions="End" Source="">
+                                                <ImageButton.Triggers>
+                                                    <EventTrigger Event="Clicked">
+                                                        <local:ShowPassTrigger ShowIcon="show" HideIcon="hide" x:Name="ShowPasswordActual"></local:ShowPassTrigger>
+                                                    </EventTrigger>
+                                                </ImageButton.Triggers>
+                                            </ImageButton>
+                                        -->
+                                            <!-- <local:CostumerEntry Placeholder="Senha" IsPassword="True" TextColor="#3F89A6" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/> -->
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="incorreto"  Margin="0,0,20,0" FontFamily="Roboto" IsVisible="False" FontSize="16" Text="" HorizontalTextAlignment="End" TextColor="#FFB427" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center"/>
+                                    <Label x:Name="Id_Oculto"  Margin="0,0,20,0" FontFamily="Roboto" IsVisible="True" FontSize="16" Text="" HorizontalTextAlignment="End" TextColor="#FFB427" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                <Label Margin="0,0,20,0" FontFamily="Roboto" FontSize="16" Text="Esqueceu a senha?" HorizontalTextAlignment="End" TextColor="#A8A7A7" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center"/>
+                            </StackLayout>
+
+                                <Button Margin="0,50,20,0" Text="Entrar" Clicked="Login_Feed" BackgroundColor="#FFB427" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+
+                                <StackLayout>
+                                    <Grid>
+                                        <BoxView BackgroundColor="DarkGray" HeightRequest="0" Margin="40" HorizontalOptions="FillAndExpand" WidthRequest="130"/>
+                                        <Frame BackgroundColor="White" Padding="0" Margin="0"  HasShadow="False" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                            <Label x:Name="ou"  Text="OU" TextColor="DarkGray" FontFamily="Roboto" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+                                        </Frame>
+                                    </Grid>
+
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                        <Frame BackgroundColor="Transparent" WidthRequest="40" Padding="6" Margin="5" HeightRequest="40" CornerRadius="0" HasShadow="False">
+                                            <Image Source="https://cdn-icons-png.flaticon.com/512/145/145802.png" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                        <Frame BackgroundColor="Transparent" WidthRequest="40" Padding="6" Margin="5" HeightRequest="40" CornerRadius="0" HasShadow="False">
+                                            <Image Source="https://cdn-icons-png.flaticon.com/512/145/145812.png" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                        <Frame BackgroundColor="Transparent" WidthRequest="40" Padding="6" Margin="5" HeightRequest="40" CornerRadius="0" HasShadow="False">
+                                            <Image Source="https://cdn-icons-png.flaticon.com/512/270/270014.png" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                    </StackLayout>
+                                   
+
+                                </StackLayout>
+                        </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

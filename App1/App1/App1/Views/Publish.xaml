@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="App1.Views.Publish">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+ 
+        <SearchBar Margin="10,0,10,0" Placeholder="Procurar Problemas" ></SearchBar>
+
+
+        <maps:Map MapType="Street" HasZoomEnabled="True" x:Name="PlaceView">
+            <maps:Map.ItemTemplate>
+                <DataTemplate>
+                    <maps:Pin Position="{Binding Position}"
+                              Address="{Binding Address}"
+                              Label="{Binding Descricao}"/>
+                    
+                </DataTemplate>
+
+            </maps:Map.ItemTemplate>
+        </maps:Map>
+        
+        <!--  <ListView Grid.Row="3" x:Name="PlaceView" HasUnevenRows="True" Footer="">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid RowDefinitions="Auto,Auto,Auto">
+                            <StackLayout>
+                                <Frame BackgroundColor="White" HasShadow="True" CornerRadius="10" HorizontalOptions="FillAndExpand">
+                                    <StackLayout IsVisible="True">
+
+
+                                        <StackLayout Orientation="Horizontal" Margin="0,0,20,20">
+                                            <Frame BackgroundColor="Transparent" Padding="0" Margin="5" HeightRequest="50" CornerRadius="60" HasShadow="False">
+                                                <Image Source="{Binding Address}" Aspect="AspectFit" Margin="0"/>
+                                            </Frame>
+                                      
+                                            <StackLayout Orientation="Vertical">
+                                                <Label Text="{Binding Position}" Margin="0,0,0,-3" FontSize="18" FontAttributes="Bold" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                                             
+                                             
+                                                <StackLayout Orientation="Horizontal" Margin="0,5,5,0">
+                                                    <Label Text="{Binding Descricao}" FontSize="12"  TextColor="Black" VerticalOptions="CenterAndExpand"  />  
+                                                </StackLayout>
+
+                                            </StackLayout>
+
+                                            <Label Text="..." VerticalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    -->
+
+    <Grid x:Name="BtnCreate" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent">
+            <Button HorizontalOptions="Center"  Text="+" Clicked="Create">
+                <Button.WidthRequest>
+                    <OnIdiom x:TypeArguments="x:Double" Phone="60" Tablet="80" />
+                </Button.WidthRequest>
+                <Button.HeightRequest>
+                    <OnIdiom x:TypeArguments="x:Double" Phone="60" Tablet="80" />
+                </Button.HeightRequest>
+                <Button.BorderRadius>
+                    <OnIdiom x:TypeArguments="x:Int32" Phone="30" Tablet="40" />
+                </Button.BorderRadius>
+            </Button>
+        </Grid>
+        <StackLayout x:Name="stkValidar" IsVisible="false">
+            <StackLayout>
+                <StackLayout Margin="0,25,0,0">
+
+                    <Label HorizontalOptions="CenterAndExpand" Text="Validar Login"></Label>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Nome_Validar" Placeholder="Nome de Usuario"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Senha_Validar" Placeholder="Senha"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="incorreto" IsVisible="false" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <StackLayout HorizontalOptions="Center">
+                        <Button Margin="0,0,0,0" Text="Validar" Clicked="Validar" BackgroundColor="#FFB427" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+                        <Button Margin="0,0,0,0" Text="Cancelar" Clicked="Fechar" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout x:Name="stkCreate" IsVisible="false">
+            <StackLayout>
+                    <StackLayout Margin="0,25,0,0">
+                  
+                 
+                        <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                            <StackLayout Orientation="Horizontal">
+                                <Entry x:Name="Descricao_PostMap" Placeholder="Descreva o problema"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                            </StackLayout>
+                        </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Nome_LugarMap" Placeholder="Nome do Lugar"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0" IsVisible="false">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Latitude" Placeholder="Latitude"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0" IsVisible="false">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Longitude" Placeholder="Longitude"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                            <StackLayout Orientation="Horizontal">
+                                <Entry x:Name="Imagem_PostMap" Placeholder="Link da Imagem"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                            </StackLayout>
+                        </Frame>
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Label x:Name="Error" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+
+
+                    <Frame BackgroundColor="Transparent" Padding="0" Margin="0">
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="Id_Usuario" Placeholder="Id" IsVisible="true"  IsReadOnly="True"  TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                        </StackLayout>
+                    </Frame>
+                    <StackLayout>
+                    <Button Margin="0,0,0,0" Text="Salvar" Clicked="Salvar" BackgroundColor="#FFB427" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+                    <Button Margin="0,0,0,0" Text="Cancelar" Clicked="Fechar" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+                    </StackLayout>
+                </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+      
+
+        <!--    <maps:Map>
+                x:Name="MyMap"
+            IsShowingUser="true"
+            VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        -->
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" xmlns:Views="clr-namespace:App1.Views"
+            BarBackgroundColor="#EBEFF2"
+             SelectedTabColor="Black"
+             UnselectedTabColor="#FFB427"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             x:Class="App1.ButtonNavigation">
+    <!--Pages can be added as references or inline-->
+    <Views:NewFeed Title="Feed" IconImageSource="FeedIcon"></Views:NewFeed>
+    <Views:Publish Title="Mapa" IconImageSource="MapIcon"></Views:Publish>
+    <Views:Perfil Title="Perfil" IconImageSource="PerfilIcon"></Views:Perfil>
+</TabbedPage>

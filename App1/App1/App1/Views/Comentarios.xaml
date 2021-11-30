@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:CostumerEntry="http://xamarin.com/schemas/2014/forms/design"
+             x:Class="App1.Views.Comentarios">
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Vertical"  VerticalOptions="FillAndExpand">
+                    <!--BLOCAGEM DO COMENTÁRIO-->
+
+                        <StackLayout Padding="10,0,0,0" >
+                            <Frame BackgroundColor="AliceBlue" HasShadow="True" CornerRadius="0" IsClippedToBounds="true" HorizontalOptions="FillAndExpand">
+                            <StackLayout IsVisible="True">
+                                <!--REFERÊNCIA AO PERFIL DO USUÁRIO-->
+                                <StackLayout Margin="0,0,0,0">
+                                    <StackLayout Orientation="Horizontal"  Margin="0,0,0,0">
+                                        <Frame BackgroundColor="Transparent" Padding="0" Margin="5" HeightRequest="60" WidthRequest="60" CornerRadius="60" HasShadow="False">
+                                            <Image Source="https://pbs.twimg.com/profile_images/621413241709821952/v6VdEal6_400x400.jpg" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                    </StackLayout>
+
+                                    <StackLayout VerticalOptions="StartAndExpand">
+                                        <Label Text="Adriano Milanez" Margin="10,10,0,-10" FontSize="16" FontAttributes="Bold" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0" Margin="5" VerticalOptions="StartAndExpand" HeightRequest="100" BackgroundColor="Transparent">
+
+                                            <StackLayout BackgroundColor="Transparent" WidthRequest="300" Padding="0"  Margin="5" HeightRequest="5" HorizontalOptions="CenterAndExpand">
+
+                                                <Label  FontSize="14" TextColor="Black" Text="Todos os dias quando vou trabalhar, me deparo com essa situação absurda, uma cratera no meio da via, sem a devida atenção, atrapalhando as nossas vidas a vários meses"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <Label Text="..." FontSize="14" VerticalOptions="FillAndExpand" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+
+                                <!--Comentário em texto-->
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="AliceBlue" HasShadow="True" CornerRadius="0" IsClippedToBounds="true" HorizontalOptions="FillAndExpand">
+                            <StackLayout IsVisible="True">
+                                <!--REFERÊNCIA AO PERFIL DO USUÁRIO-->
+                                <StackLayout Margin="0,0,0,0">
+                                    <StackLayout Orientation="Horizontal"  Margin="0,0,0,0">
+                                        <Frame BackgroundColor="Transparent" Padding="0" Margin="5" HeightRequest="60" WidthRequest="60" CornerRadius="60" HasShadow="False">
+                                            <Image Source="https://pbs.twimg.com/profile_images/621413241709821952/v6VdEal6_400x400.jpg" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                    </StackLayout>
+
+                                    <StackLayout VerticalOptions="StartAndExpand">
+                                        <Label Text="Adriano Milanez" Margin="10,10,0,-10" FontSize="16" FontAttributes="Bold" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0" Margin="5" VerticalOptions="StartAndExpand" HeightRequest="100" BackgroundColor="Transparent">
+
+                                            <StackLayout BackgroundColor="Transparent" WidthRequest="300" Padding="0"  Margin="5" HeightRequest="5" HorizontalOptions="CenterAndExpand">
+
+                                                <Label  FontSize="14" TextColor="Black" Text="Todos os dias quando vou trabalhar, me deparo com essa situação absurda, uma cratera no meio da via, sem a devida atenção, atrapalhando as nossas vidas a vários meses"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <Label Text="..." FontSize="14" VerticalOptions="FillAndExpand" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+
+                                <!--Comentário em texto-->
+
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="AliceBlue" HasShadow="True" CornerRadius="0" IsClippedToBounds="true" HorizontalOptions="FillAndExpand">
+                            <StackLayout IsVisible="True">
+                                <!--REFERÊNCIA AO PERFIL DO USUÁRIO-->
+                                <StackLayout Margin="0,0,0,0">
+                                    <StackLayout Orientation="Horizontal"  Margin="0,0,0,0">
+                                        <Frame BackgroundColor="Transparent" Padding="0" Margin="5" HeightRequest="60" WidthRequest="60" CornerRadius="60" HasShadow="False">
+                                            <Image Source="https://pbs.twimg.com/profile_images/621413241709821952/v6VdEal6_400x400.jpg" Aspect="AspectFit" Margin="0"/>
+                                        </Frame>
+                                    </StackLayout>
+
+                                    <StackLayout VerticalOptions="StartAndExpand">
+                                        <Label Text="Adriano Milanez" Margin="10,10,0,-10" FontSize="16" FontAttributes="Bold" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0" Margin="5" VerticalOptions="StartAndExpand" HeightRequest="100" BackgroundColor="Transparent">
+
+                                            <StackLayout BackgroundColor="Transparent" WidthRequest="300" Padding="0"  Margin="5" HeightRequest="5" HorizontalOptions="CenterAndExpand">
+
+                                                <Label  FontSize="14" TextColor="Black" Text="Todos os dias quando vou trabalhar, me deparo com essa situação absurda, uma cratera no meio da via, sem a devida atenção, atrapalhando as nossas vidas a vários meses"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <Label Text="..." FontSize="14" VerticalOptions="FillAndExpand" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+
+                                <!--Comentário em texto-->
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+        
+        <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="42" BackgroundColor="White">
+                <Editor FontSize="14" Placeholder="Escreva seu Comentário aqui"></Editor>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

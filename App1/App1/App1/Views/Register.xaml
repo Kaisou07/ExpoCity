@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:App1.Models"
+             x:Class="App1.Views.Register">
+    <ContentPage.Content>
+        <StackLayout Padding="0" BackgroundColor="#EBEFF2">
+            <Grid>
+                <StackLayout Padding="0,-100,0,0" Margin="0">
+                    <Frame Padding="0" Margin="-50,-50,-50,0" BackgroundColor="Transparent" BorderColor="Transparent">
+                        <Image Source="https://i.im.ge/2021/09/14/TjO2aC.png" Aspect="AspectFill"/>
+                    </Frame>
+                    <Frame  Padding="0" Margin="-50,-310,-50,0" BackgroundColor="Transparent" BorderColor="Transparent">
+                    <Image Source="logo" Aspect="AspectFit" HeightRequest="100"/>
+                    </Frame>
+                    <Frame Padding="0" BackgroundColor="Transparent" BorderColor="Transparent" HeightRequest="300"  HorizontalOptions="FillAndExpand">
+                    </Frame>
+                    
+
+                </StackLayout>
+                <StackLayout Margin="30,150,30,0">
+                    <Frame BackgroundColor="White" HasShadow="True" CornerRadius="40" HeightRequest="449" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <StackLayout Margin="0,25,0,0">
+
+
+                                <Frame BackgroundColor="Transparent"  Padding="0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry x:Name="UserEmail" Placeholder="Email" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Frame BackgroundColor="Transparent" Padding="0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry x:Name="UserName" Placeholder="Nome Completo" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Frame BackgroundColor="Transparent" Padding="0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry x:Name="UserSenha" Placeholder="Senha" IsPassword="True" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+
+                                <Frame BackgroundColor="Transparent"  Padding="0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry x:Name="UserConfirm" Placeholder="Confirmar Senha" IsPassword="True" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+
+                            <Frame BackgroundColor="Transparent"  Padding="0" Margin="0,10,0,0" HorizontalOptions="FillAndExpand">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label x:Name="Error" IsVisible="false" TextColor="#FFB427" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"/>
+                                </StackLayout>
+                            </Frame>
+                            <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,0,0,0">
+  
+                            </StackLayout>
+                            <Button Text="Cadastrar" BackgroundColor="#FFB427" Clicked="Registrar" TextColor="White" FontAttributes="Bold" CornerRadius="30"/>
+
+                            <StackLayout>
+                                <Grid>
+                                    <BoxView BackgroundColor="DarkGray" HeightRequest="0" Margin="40" HorizontalOptions="FillAndExpand" WidthRequest="130"/>
+                                    <Frame BackgroundColor="White" Padding="0" Margin="0"  HasShadow="False" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                                        <Label Text="OU" TextColor="DarkGray" FontFamily="Roboto" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
+                                    </Frame>
+                                </Grid>
+
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="-6" Margin="5" HeightRequest="50" CornerRadius="0" HasShadow="False">
+                                        <Image Source="https://cdn-icons-png.flaticon.com/512/145/145802.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="-6" Margin="5" HeightRequest="50" CornerRadius="0" HasShadow="False">
+                                        <Image Source="https://cdn-icons-png.flaticon.com/512/145/145812.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="-6" Margin="5" HeightRequest="50" CornerRadius="0" HasShadow="False">
+                                        <Image Source="https://cdn-icons-png.flaticon.com/512/270/270014.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                </StackLayout>
+                                <!-- <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="0" Margin="5" HeightRequest="50" CornerRadius="30" HasShadow="False">
+                                        <Image Source="https://image.flaticon.com/icons/png/512/733/733547.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="0" Margin="5" HeightRequest="50" CornerRadius="30" HasShadow="False">
+                                        <Image Source="https://image.flaticon.com/icons/png/512/733/733579.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                    <Frame BackgroundColor="Transparent" WidthRequest="50" Padding="0" Margin="5" HeightRequest="50" CornerRadius="30" HasShadow="False">
+                                        <Image Source="https://image.flaticon.com/icons/png/512/281/281764.png" Aspect="AspectFit" Margin="0"/>
+                                    </Frame>
+                                </StackLayout>
+                                -->
+
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
